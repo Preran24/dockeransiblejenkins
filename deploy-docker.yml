@@ -21,7 +21,7 @@
         state: present
     - name: Start the container
       docker_container:
-        name: hariapp
+        name: preranapp
         image: "prerank/infy_practise:{{DOCKER_TAG}}"
         state: started
         published_ports:
